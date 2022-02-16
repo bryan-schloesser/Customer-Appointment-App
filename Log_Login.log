@@ -1,0 +1,116 @@
+Aug 03, 2021 4:26:51 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 4:27:55 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 4:32:26 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 4:34:48 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 4:45:05 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 4:46:19 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 4:48:17 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 4:53:00 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 4:56:51 PM Controllers.LoginPageController loggingLogin
+INFO: Username: TEST
+Login Attempt: False
+
+Aug 03, 2021 4:56:56 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 5:05:53 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 5:08:21 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 5:13:05 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 5:27:06 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 5:29:18 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 5:33:17 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 5:54:04 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 6:04:10 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 6:05:11 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 6:08:58 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 6:09:33 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 6:12:42 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 6:17:29 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 6:18:29 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 6:20:01 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 6:22:21 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 6:28:02 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 6:33:17 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+
+Aug 03, 2021 6:37:06 PM Controllers.LoginPageController loggingLogin
+INFO: Username: test
+Login Attempt: True
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/src/ResourceBundles/LoginPage.properties" />
+    <file url="file://$PROJECT_DIR$/src/ResourceBundles/LoginPage_en_US.properties" />
+    <file url="file://$PROJECT_DIR$/src/ResourceBundles/LoginPage_fr_CA.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/ResourceBundles/LoginPage.properties" />
+      <file value="file://$PROJECT_DIR$/src/ResourceBundles/LoginPage_en_US.properties" />
+      <file value="file://$PROJECT_DIR$/src/ResourceBundles/LoginPage_fr_CA.properties" />
+      <base-name>LoginPage</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>

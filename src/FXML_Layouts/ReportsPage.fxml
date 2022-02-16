@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="245.0" layoutY="23.0" text="Reports">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="32.0" layoutY="69.0" prefHeight="274.0" prefWidth="568.0">
+         <children>
+            <TabPane fx:id="tabPane" layoutX="-29.0" onMouseClicked="#runReport" prefHeight="267.0" prefWidth="592.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab fx:id="reportTab1" text="Total Number of Appointments by Type and Month">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+
+                               <TableView fx:id="reportTable1" layoutX="16.0" layoutY="18.0" prefHeight="200.0" prefWidth="515.0">
+                                <items>
+                                </items>
+                                   <columns>
+                                  <TableColumn fx:id="appointmentType" prefWidth="159.0" text="Appointment Type">
+                                          <cellValueFactory>
+                                              <PropertyValueFactory property="type" />
+                                          </cellValueFactory>
+                                  </TableColumn>
+                                    <TableColumn fx:id="Month" prefWidth="105.0" text="Month">
+                                        <cellValueFactory>
+                                            <PropertyValueFactory property="month" />
+                                        </cellValueFactory>
+                                    </TableColumn>
+
+                                  <TableColumn fx:id="count" prefWidth="129.0" text="Count">
+                                      <cellValueFactory>
+                                          <PropertyValueFactory property="count" />
+                                      </cellValueFactory>
+                                  </TableColumn>
+                                </columns>
+                              </TableView>
+
+
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab fx:id="reportTab2" text="Appointments Sorted By User">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView fx:id="reportTable2" layoutX="16.0" layoutY="18.0" prefHeight="200.0" prefWidth="515.0">
+                                 <columns>
+                                    <TableColumn fx:id="username" prefWidth="75.0" text="User">
+                                        <cellValueFactory>
+                                            <PropertyValueFactory property="username" />
+                                        </cellValueFactory>
+                                    </TableColumn>
+                                    <TableColumn fx:id="appointmentID" prefWidth="75.0" text="Appointment ID">
+                                        <cellValueFactory>
+                                            <PropertyValueFactory property="appointmentID" />
+                                        </cellValueFactory>
+                                    </TableColumn>
+                                    <TableColumn fx:id="title" prefWidth="75.0" text="Title">
+                                        <cellValueFactory>
+                                            <PropertyValueFactory property="title" />
+                                        </cellValueFactory>
+                                    </TableColumn>
+                                    <TableColumn fx:id="description" prefWidth="75.0" text="Description">
+                                        <cellValueFactory>
+                                            <PropertyValueFactory property="description" />
+                                        </cellValueFactory>
+                                    </TableColumn>
+                                     <TableColumn fx:id="startTime" prefWidth="75.0" text="Start Time">
+                                         <cellValueFactory>
+                                             <PropertyValueFactory property="startTime" />
+                                         </cellValueFactory>
+                                     </TableColumn>
+                                     <TableColumn fx:id="endTime" prefWidth="75.0" text="End Time">
+                                         <cellValueFactory>
+                                             <PropertyValueFactory property="endTime" />
+                                         </cellValueFactory>
+                                     </TableColumn>
+                                     <TableColumn fx:id="customerID" prefWidth="75.0" text="Customer ID">
+                                         <cellValueFactory>
+                                             <PropertyValueFactory property="customerID" />
+                                         </cellValueFactory>
+                                     </TableColumn>
+                                     <TableColumn fx:id="customerName" prefWidth="75.0" text="Customer">
+                                         <cellValueFactory>
+                                             <PropertyValueFactory property="customerName" />
+                                         </cellValueFactory>
+                                     </TableColumn>
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                </Tab>
+                  <Tab fx:id="reportTab3" text="Number of Customers Per Region">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView fx:id="reportTable3" layoutX="16.0" layoutY="18.0" prefHeight="200.0" prefWidth="515.0">
+                                  <columns>
+                                      <TableColumn fx:id="countryID" prefWidth="75.0" text="Country ID">
+                                          <cellValueFactory>
+                                              <PropertyValueFactory property="countryID" />
+                                          </cellValueFactory>
+                                      </TableColumn>
+                                      <TableColumn fx:id="country" prefWidth="75.0" text="Country">
+                                          <cellValueFactory>
+                                              <PropertyValueFactory property="country" />
+                                          </cellValueFactory>
+                                      </TableColumn>
+                                      <TableColumn fx:id="division" prefWidth="75.0" text="Division">
+                                          <cellValueFactory>
+                                              <PropertyValueFactory property="division" />
+                                          </cellValueFactory>
+                                      </TableColumn>
+                                      <TableColumn fx:id="customerCount" prefWidth="75.0" text="Number of Customers">
+                                          <cellValueFactory>
+                                              <PropertyValueFactory property="count" />
+                                          </cellValueFactory>
+                                      </TableColumn>
+                                  </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </AnchorPane>
+      <Button fx:id="backButton" layoutX="245.0" layoutY="343.0" mnemonicParsing="false" onMouseClicked="#menuScreen" text="Back" />
+   </children>
+</AnchorPane>
